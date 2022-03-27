@@ -8,7 +8,7 @@ import { config } from 'dotenv';
 import connectDatabase from './src/config/db.config.js';
 import userRouter from './src/routes/userRouter.js';
 import loginRouter from './src/routes/loginRouter.js';
-config();
+if (process.env.NODE_ENV !== 'production') config();
 connectDatabase();
 
 const port = process.env.PORT || 8080;
