@@ -1,4 +1,4 @@
-import { getAllUser, createUser, findUserById, updateUserById, removeUser } from './../controllers/userController.js';
+import { getAllUser, createUser, findUserById, updateUserById, removeUser } from '../controllers/userController.js';
 import { Router } from 'express';
 const router = Router();
 

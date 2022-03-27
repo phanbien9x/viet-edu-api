@@ -1,5 +1,5 @@
 import md5 from 'md5';
-import User, { create, getAll, findById, updateById, remove } from './../models/User.js';
+import User, { create, getAll, findById, updateById, remove } from '../models/user.js';
 
 export function createUser(req, res) {
   if (!req.body) {

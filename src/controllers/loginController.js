@@ -1,5 +1,5 @@
 import md5 from 'md5';
-import { login } from './../models/user.js';
+import { login } from '../models/user.js';
 
 export function userLogin(req, res) {
   if (!req.body) {
