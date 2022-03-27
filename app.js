@@ -23,7 +23,7 @@ const options = {
     },
     servers: [
       {
-        url: process.config.DOMAIN_URL,
+        url: 'http://localhost:8080/api',
       },
     ],
   },
