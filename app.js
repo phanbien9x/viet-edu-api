@@ -23,7 +23,7 @@ const options = {
     },
     servers: [
       {
-        url: process.config.DOMAIN_URL,
+        url: 'https://viet-edu-api.herokuapp.com/api',
       },
     ],
   },
